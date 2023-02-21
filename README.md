@@ -59,6 +59,7 @@ By building this application, you will learn how to use React.
 - **[Good HTML, JS and CSS practices]**
 - **[Professional readme file]**
 - **[Basic CRUD application using React]**
+- **[deploy the project with VERCEL]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,7 +67,7 @@ By building this application, you will learn how to use React.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link, Not Available]()
+- [Live Demo Link, (https://react-tuto-git-react-tutorial-alexisjw.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
