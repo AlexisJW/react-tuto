@@ -1,42 +1,17 @@
-import { useState, useEffect, useRef } from 'react';
+const links = [
+  { path: '/', text: 'Home' },
+  { path: 'about', text: 'About' },
+];
 
-const Navbar = () => {
-  const [dropdown, setDropdown] = useState(false);
-  const ref = useRef();
-
-  useEffect(() => {
-    const handler = (event) => {
-      if (dropdown && ref.current && !ref.current.contains(event.target)) {
-        setDropdown(false);
-      }
-    };
-    document.addEventListener('mousedown', handler);
-    return () => {
-      // Cleanup the event listener
-      document.removeEventListener('mousedown', handler);
-    };
-  }, [dropdown]);
-
-  return (
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li ref={ref}>
-          <button type="button" onClick={() => setDropdown((prev) => !prev)}>
-            Services
-            {' '}
-            <span>&#8595;</span>
-          </button>
-          {dropdown && (
-          <ul>
-            <li>Design</li>
-            <li>Development</li>
-          </ul>
-          )}
+const Navbar = () => (
+  <nav className="navbar">
+    <ul>
+      {links.map((link) => (
+        <li key={link.text}>
+          <a href={link.path}>{link.text}</a>
         </li>
-      </ul>
-    </nav>
-  );
-};
+      ))}
+    </ul>
+  </nav>
+);
 export default Navbar;
