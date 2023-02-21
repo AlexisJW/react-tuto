@@ -27,11 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math-magician] <a name="about-project"></a>
+# 📖 [React Todo App] <a name="about-project"></a>
 
-**[Math-magician]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-    Make simple calculations.
-    Read a random math-related quote.
+**React Todo App allows you to create, edit, delete and view your todos. It is a simple todo app built with React, Linters and Localstorage.
 
 By building this application, you will learn how to use React.
 
@@ -57,10 +55,10 @@ By building this application, you will learn how to use React.
 
 ### Key Features <a name="key-features"></a>
 
-- **[GIT FLOW]**
+- **[Configured linters for react app]**
 - **[Good HTML, JS and CSS practices]**
-- **[Dynamically]**
-- **[Refactor with hooks]**
+- **[Professional readme file]**
+- **[Basic CRUD application using React]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +182,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AlexisJW/react-math-magic/issues).
+Feel free to check the [issues page](https://github.com/AlexisJW/react-tuto/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,7 +200,7 @@ If you like this project...
 
 - **What is this for?**
 
-  - This is an app used to learn to send, receive data from an API, use API documentation, understand and use JSON and make JavaScript code asynchronous.
+  - This is an app used to Persisting data using local storage, Routing using react-router, Rendering dynamic links.
 
 - **Can i copy this project?**
 
